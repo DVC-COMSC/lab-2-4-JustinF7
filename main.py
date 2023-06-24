@@ -6,9 +6,10 @@ def main():
     sub1 = original_str[0: 6]
     sub2 = original_str[7: 18]
     merge_str = sub2 + ' ' + sub1
+    merged_str = merge_str
     print(sub1)
     print(sub2)
-    print(merge_str)
+    print(merged_str)
     pass
 
 
